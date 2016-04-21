@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.Cocoa.XIB" version="3.0" toolsVersion="6250" systemVersion="14B25" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none" useAutolayout="YES" customObjectInstantitationMethod="direct">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="6250"/>
+        <plugIn identifier="com.apple.WebKitIBPlugin" version="6250"/>
+    </dependencies>
+    <objects>
+        <customObject id="-2" userLabel="File's Owner" customClass="NSApplication">
+            <connections>
+                <outlet property="delegate" destination="P4v-bB-aAX" id="VxD-3C-pIG"/>
+            </connections>
+        </customObject>
+        <customObject id="-1" userLabel="First Responder" customClass="FirstResponder"/>
+        <customObject id="-3" userLabel="Application" customClass="NSObject"/>
+        <customObject id="P4v-bB-aAX" customClass="PBDelegate">
+            <connections>
+                <outlet property="signInWindow" destination="pbq-bS-MfR" id="JCy-Bg-NSs"/>
+            </connections>
+        </customObject>
+        <window title="Connexion à Pushbullet" allowsToolTipsWhenApplicationIsInactive="NO" autorecalculatesKeyViewLoop="NO" restorable="NO" visibleAtLaunch="NO" animationBehavior="default" id="QvC-M9-y7g">
+            <windowStyleMask key="styleMask" titled="YES" closable="YES" miniaturizable="YES" fullSizeContentView="YES"/>
+            <rect key="contentRect" x="196" y="240" width="400" height="500"/>
+            <rect key="screenRect" x="0.0" y="0.0" width="1280" height="800"/>
+            <value key="minSize" type="size" width="400" height="500"/>
+            <value key="maxSize" type="size" width="400" height="500"/>
+            <view key="contentView" id="EiT-Mj-1SZ">
+                <rect key="frame" x="0.0" y="0.0" width="400" height="500"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <webView translatesAutoresizingMaskIntoConstraints="NO" id="ymM-vO-yOE">
+                        <rect key="frame" x="0.0" y="0.0" width="400" height="500"/>
+                        <webPreferences key="preferences" defaultFontSize="12" defaultFixedFontSize="12">
+                            <nil key="identifier"/>
+                        </webPreferences>
+                        <connections>
+                            <outlet property="frameLoadDelegate" destination="pbq-bS-MfR" id="XtL-6X-uXG"/>
+                        </connections>
+                    </webView>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="ymM-vO-yOE" firstAttribute="top" secondItem="EiT-Mj-1SZ" secondAttribute="top" id="5S7-en-0rk"/>
+                    <constraint firstItem="ymM-vO-yOE" firstAttribute="leading" secondItem="EiT-Mj-1SZ" secondAttribute="leading" id="FJm-QQ-9ph"/>
+                    <constraint firstAttribute="trailing" secondItem="ymM-vO-yOE" secondAttribute="trailing" id="VNu-kv-iyS"/>
+                    <constraint firstAttribute="bottom" secondItem="ymM-vO-yOE" secondAttribute="bottom" id="dNb-zO-gqv"/>
+                </constraints>
+            </view>
+            <connections>
+                <outlet property="delegate" destination="pbq-bS-MfR" id="YU7-q0-Wgs"/>
+            </connections>
+        </window>
+        <customObject id="pbq-bS-MfR" customClass="PBSignInWindowController">
+            <connections>
+                <outlet property="delegate" destination="P4v-bB-aAX" id="KP0-T5-Dd3"/>
+                <outlet property="menuWindow" destination="QvC-M9-y7g" id="adI-IX-vtD"/>
+                <outlet property="spinningWheel" destination="5Zq-il-7nU" id="Fje-Vh-X7h"/>
+                <outlet property="waitingView" destination="ABU-6Q-B9r" id="uB1-91-Gcg"/>
+                <outlet property="webview" destination="ymM-vO-yOE" id="JGf-jY-qqB"/>
+            </connections>
+        </customObject>
+        <customView id="ABU-6Q-B9r">
+            <rect key="frame" x="0.0" y="0.0" width="400" height="500"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+            <subviews>
+                <progressIndicator horizontalHuggingPriority="750" verticalHuggingPriority="750" maxValue="100" bezeled="NO" indeterminate="YES" style="spinning" translatesAutoresizingMaskIntoConstraints="NO" id="5Zq-il-7nU">
+                    <rect key="frame" x="184" y="234" width="32" height="32"/>
+                </progressIndicator>
+            </subviews>
+            <constraints>
+                <constraint firstAttribute="centerX" secondItem="5Zq-il-7nU" secondAttribute="centerX" id="2jG-fn-N4n"/>
+                <constraint firstAttribute="centerY" secondItem="5Zq-il-7nU" secondAttribute="centerY" id="FdP-zf-q2f"/>
+            </constraints>
+            <point key="canvasLocation" x="903" y="221"/>
+        </customView>
+    </objects>
+</document>

@@ -1,0 +1,6 @@
+framework module Pushbullet {
+  umbrella header "Pushbullet.h"
+
+  export *
+  module * { export * }
+}

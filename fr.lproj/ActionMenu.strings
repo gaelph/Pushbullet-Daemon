@@ -1,0 +1,14 @@
+/* 
+  Settings.strings
+  Pushbullet
+
+  Created by Gaël PHILIPPE on 19/11/2014.
+  Copyright (c) 2014 Gaël PHILIPPE. All rights reserved.
+*/
+
+
+"OpenBrowser" = "Ouvrir dans le navigateur…";
+
+"OpenApp" = "Ouvrir une application…";
+
+"DoNothing" = "Ne rien faire";

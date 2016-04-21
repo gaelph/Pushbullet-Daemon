@@ -1,0 +1,47 @@
+/* 
+  StatusMenu.strings
+  Pushbullet
+
+  Created by Gaël PHILIPPE on 19/11/2014.
+  Copyright (c) 2014 Gaël PHILIPPE. All rights reserved.
+*/
+
+"SocketStatusRunning" = "Connecté";
+
+"SocketStatusPaused" = "En pause. Réveil dans %@";
+
+"SocketStatusClosed" = "Arrété";
+
+"ViewPushes" = "Voir les Pushs";
+
+"Preferences" = "Préférences";
+
+"SignOut" = "Déconnexion";
+
+"Snooze" = "Pause d'une heure";
+
+"Resume" = "Reprendre";
+
+"Mirror" = "Notifications du téléphone";
+
+"Quit" = "Quitter Pushbullet";
+
+
+"about an hour" = "environ une heure";
+
+"less than an hour" = "moins d'une heure";
+
+"about %li minutes" = "environ %li minutes";
+
+"about half an hour" = "environ une demi-heure";
+
+"about %li minutes" = "environ %li minutes";
+
+"less than a minute" = "moins d'une minute";
+
+
+"less than a minute" = "moins d'une minute";
+
+"less than 30 seconds" = "moins de 30 secondes";
+
+"%li seconds" = "%li seconds";

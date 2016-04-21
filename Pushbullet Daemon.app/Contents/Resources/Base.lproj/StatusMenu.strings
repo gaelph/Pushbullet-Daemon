@@ -1,0 +1,47 @@
+/* 
+  StatusMenu.strings
+  Pushbullet
+
+  Created by Gaël PHILIPPE on 19/11/2014.
+  Copyright (c) 2014 Gaël PHILIPPE. All rights reserved.
+*/
+
+"SocketStatusRunning" = "Running";
+
+"SocketStatusPaused" = "Pause. Restart in %@";
+
+"SocketStatusClosed" = "Stopped";
+
+"ViewPushes" = "View Pushes";
+
+"Preferences" = "Preferences";
+
+"SignOut" = "Sign Out";
+
+"Snooze" = "Snooze an hour";
+
+"Resume" = "Resume";
+
+"Mirror" = "Mirror notifications";
+
+"Quit" = "Quit Pushbullet";
+
+
+"about an hour" = "about an hour";
+
+"less than an hour" = "less than an hour";
+
+"about %li minutes" = "about %li minutes";
+
+"about half an hour" = "about half an hour";
+
+"about %li minutes" = "about %li minutes";
+
+"less than a minute" = "less than a minute";
+
+
+"less than a minute" = "less than a minute";
+
+"less than 30 seconds" = "less than 30 seconds";
+
+"%li seconds" = "%li seconds";

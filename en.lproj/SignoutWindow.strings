@@ -1,0 +1,15 @@
+
+/* Class = "NSTextFieldCell"; title = "Signing Out"; ObjectID = "2je-49-JtC"; */
+"2je-49-JtC.title" = "Signing Out";
+
+/* Class = "NSButtonCell"; title = "Sign out"; ObjectID = "Kv5-Jb-lIn"; */
+"Kv5-Jb-lIn.title" = "Sign out";
+
+/* Class = "NSButtonCell"; title = "Cancel"; ObjectID = "NDe-Wy-1JT"; */
+"NDe-Wy-1JT.title" = "Cancel";
+
+/* Class = "NSButtonCell"; title = "Remove this device"; ObjectID = "QxT-MK-ouo"; */
+"QxT-MK-ouo.title" = "Remove this device";
+
+/* Class = "NSTextFieldCell"; title = "You won't receive push notifications from this device anymore."; ObjectID = "gwh-hU-Kh8"; */
+"gwh-hU-Kh8.title" = "You won't receive push notifications on this device anymore.";

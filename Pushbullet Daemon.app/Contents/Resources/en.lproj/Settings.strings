@@ -1,0 +1,54 @@
+
+/* Class = "NSButtonCell"; title = "Save those settings"; ObjectID = "0RD-5c-Swn"; */
+"0RD-5c-Swn.title" = "Save those settings";
+
+/* Class = "NSTextFieldCell"; placeholderString = "http://www.example.com"; ObjectID = "DBx-Lm-8hR"; */
+"DBx-Lm-8hR.placeholderString" = "http://www.example.com";
+
+/* Class = "NSTableColumn"; headerCell.title = "Android Application"; ObjectID = "Js7-jY-zy2"; */
+"Js7-jY-zy2.headerCell.title" = "Android Application";
+
+/* Class = "NSWindow"; title = "Pushbullet Settings"; ObjectID = "QvC-M9-y7g"; */
+"QvC-M9-y7g.title" = "Pushbullet Settings";
+
+/* Class = "NSMenuItem"; title = "Do nothing"; ObjectID = "XpY-mu-0vR"; */
+"XpY-mu-0vR.title" = "Do nothing";
+
+/* Class = "NSTextFieldCell"; title = "Text Cell"; ObjectID = "Y0p-IL-oQS"; */
+"Y0p-IL-oQS.title" = "Text Cell";
+
+/* Class = "NSButtonCell"; title = "Start Pushbullet when logging in"; ObjectID = "boi-ac-o5f"; */
+"boi-ac-o5f.title" = "Start Pushbullet when logging in";
+
+/* Class = "NSTextFieldCell"; title = "Text Cell"; ObjectID = "h5N-Vl-Wsj"; */
+"h5N-Vl-Wsj.title" = "Text Cell";
+
+/* Class = "NSButtonCell"; title = "Show Dock Icon"; ObjectID = "igY-kC-Bcz"; */
+"igY-kC-Bcz.title" = "Show Dock Icon";
+
+/* Class = "NSTableColumn"; headerCell.title = "Action"; ObjectID = "m94-qU-dul"; */
+"m94-qU-dul.headerCell.title" = "Action";
+
+/* Class = "NSWindow"; title = "Enter website URL"; ObjectID = "my0-XY-2XY"; */
+"my0-XY-2XY.title" = "Enter website URL";
+
+/* Class = "NSTextFieldCell"; title = "Choose what to do when clicking a notification :"; ObjectID = "qM8-WF-ZzV"; */
+"qM8-WF-ZzV.title" = "Choose what to do when clicking a notification :";
+
+/* Class = "NSButtonCell"; title = "Show menu in status bar"; ObjectID = "qmU-Vb-r4I"; */
+"qmU-Vb-r4I.title" = "Show menu in status bar";
+
+/* Class = "NSButtonCell"; title = "Cancel"; ObjectID = "sTx-3D-JDW"; */
+"sTx-3D-JDW.title" = "Cancel";
+
+/* Class = "NSMenuItem"; title = "Open App"; ObjectID = "sfu-gy-3Cg"; */
+"sfu-gy-3Cg.title" = "Open App";
+
+/* Class = "NSButtonCell"; title = "OK"; ObjectID = "w08-de-SBv"; */
+"w08-de-SBv.title" = "OK";
+
+/* Class = "NSButtonCell"; title = "Cancel"; ObjectID = "wuA-ee-LSG"; */
+"wuA-ee-LSG.title" = "Cancel";
+
+/* Class = "NSMenuItem"; title = "Open Web"; ObjectID = "yuC-zA-iJH"; */
+"yuC-zA-iJH.title" = "Open Web";
